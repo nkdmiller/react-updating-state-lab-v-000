@@ -21,6 +21,7 @@ export default class YouTubeDebugger extends Component {
   
   changeRes = () => {
   this.setState({
+    ...this.state.,
     addressInfo: {
       ...this.state.addressInfo,
       city: 'New York City',
