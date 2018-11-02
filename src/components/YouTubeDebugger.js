@@ -20,7 +20,12 @@ export default class YouTubeDebugger extends Component {
   }
   
   changeRes = () => {
-    
+  this.setState({
+    addressInfo: {
+      ...this.state.addressInfo,
+      city: 'New York City',
+    },
+  });
   }
   render () {
     return(
