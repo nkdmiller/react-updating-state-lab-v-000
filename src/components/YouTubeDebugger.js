@@ -31,9 +31,21 @@ export default class YouTubeDebugger extends Component {
   });
   }
   
-  changeBitRate
+  changeBitRate = () => {
+  this.setState({
+    ...this.state,
+    settings: {
+      ...this.state.settings,
+      video:{
+        resolution: '720p'
+      },
+    },
+  });   
+  }
   render () {
     return(
-  <button class='resolution' onClick={this.changeRes}></button>)
+  <button class='resolution' onClick={this.changeRes}></button>
+  <button class='bitrate' onClick={this.changeBitRate}></button>
+  )
   }
 }
