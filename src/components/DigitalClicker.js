@@ -11,9 +11,10 @@ export default class DigitalClicker extends Component {
     };
   }
   
-  handleClick = () => {this.state:
+  handleClick = () => {this.state.timesClicked : this.state.timesClicked + 1}
   render () {
     return(
-  <input onKeyUp={this.typing} type="password" />)
+      <button onClick={this.handleClick}></button>
+    )
   }
 }
