@@ -24,10 +24,14 @@ export default class YouTubeDebugger extends Component {
     ...this.state,
     settings: {
       ...this.state.settings,
-      city: 'New York City',
+      video:{
+        resolution: '720p'
+      },
     },
   });
   }
+  
+  changeBitRate
   render () {
     return(
   <button class='resolution' onClick={this.changeRes}></button>)
