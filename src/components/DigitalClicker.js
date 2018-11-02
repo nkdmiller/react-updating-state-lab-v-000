@@ -10,6 +10,8 @@ export default class DigitalClicker extends Component {
       hasBeenClicked: false,
     };
   }
+  
+  handleClick = () => {this.state:
   render () {
     return(
   <input onKeyUp={this.typing} type="password" />)
