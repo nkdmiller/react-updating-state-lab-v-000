@@ -18,8 +18,12 @@ export default class YouTubeDebugger extends Component {
       }
     };
   }
+  
+  changeRes = () => {
+    
+  }
   render () {
     return(
-  <button class='resolution' onKeyUp={this.typing} type="password"></button>)
+  <button class='resolution' onClick={this.changeRes}></button>)
   }
 }
