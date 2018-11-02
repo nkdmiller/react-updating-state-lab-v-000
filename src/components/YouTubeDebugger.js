@@ -13,7 +13,7 @@ export default class YouTubeDebugger extends Component {
       {
         birate: 8,
         video: {
-          reso
+          resolution: '1080p' 
         }
       }
     };
