@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-export default class DigitalClick extends Component {
+export default class YouTubeDebugger extends Component {
   typing = () => {console.log('Entering password...')};
   render () {
     return(
