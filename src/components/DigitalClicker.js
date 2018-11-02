@@ -7,7 +7,7 @@ export default class DigitalClicker extends Component {
  
     // Define the initial state:
     this.state = {
-      hasBeenClicked: false,
+      timesClicked: 0,
     };
   }
   
